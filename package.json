@@ -7,6 +7,9 @@
   "scripts": {
     "start": "node server.js",
     "server": "nodemon server.js"
+    "install": "npm i && cd ./client && npm i --production=false",
+    "build": "cd client && npm run build",
+    "render-build":"npm install && npm run build"
   },
   "keywords": [],
   "author": "Ananya Ghosh",
